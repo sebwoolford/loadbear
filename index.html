@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.7/core.min.js"></script>
         <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
         <script type="module" src="src/components/button.js"></script>
         <script type="module" src="src/components/image-cta.js"></script>
@@ -84,6 +85,19 @@
             </lb-button>
         </lb-image-cta>
     </section>
+
+    <section class="loadbear demo-section">
+
+        <h2>Angular application Demo</h2>
+        <app-root></app-root>
+
+    </section>
+
+    <script type="text/javascript" src="angular-app/my-app/dist/my-app/polyfills.js"></script>
+    <script type="text/javascript" src="angular-app/my-app/dist/my-app/runtime.js"></script>
+    <script type="text/javascript" src="angular-app/my-app/dist/my-app/styles.js"></script>
+    <script type="text/javascript" src="angular-app/my-app/dist/my-app/vendor.js"></script>
+    <script type="text/javascript" src="angular-app/my-app/dist/my-app/main.js"></script>
 
     </body>
 </html>
