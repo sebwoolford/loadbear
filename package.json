@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "polymer serve",
+    "start": "polymer serve && sass --watch src/sass:dist/css",
     "build": "rollup index.js --format iife --name \"LoadBear\" --file dist/loadbear.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
